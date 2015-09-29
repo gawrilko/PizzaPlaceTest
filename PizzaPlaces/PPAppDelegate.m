@@ -6,17 +6,27 @@
 //  Copyright © 2015 Olearis. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "PPAppDelegate.h"
+#import <UXRFourSquareNetworkingEngine.h>
 
-@interface AppDelegate ()
+@interface PPAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation PPAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-	// Override point for customization after application launch.
+
+	NSString *yourClientId = @"D4KYDYGZ04FF3KNQ0QDAJK2AZKTYJQ3S5VQY1FKGHGY3YFBF";
+	NSString *yourClientSecret = @"ENGP1VXJNF3EBDRHOS2TC3BAPDVHTKZC0RHZFU3A5YYSHLLK";
+	NSString *yourCallbackURl = @"PizzaPlaces://foursquare";
+
+	[UXRFourSquareNetworkingEngine registerFourSquareEngineWithClientId: yourClientId
+															  andSecret: yourClientSecret
+														 andCallBackURL: yourCallbackURl];
+
+
 	return YES;
 }
 
