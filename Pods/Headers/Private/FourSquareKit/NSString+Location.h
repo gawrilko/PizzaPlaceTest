@@ -1,0 +1,1 @@
+../../../FourSquareKit/FourSquareKit/ios/categories/NSString+Location.h

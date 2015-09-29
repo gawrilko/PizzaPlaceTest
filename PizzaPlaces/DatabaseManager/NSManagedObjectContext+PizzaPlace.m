@@ -15,7 +15,6 @@
 	PizzaPlace* newPizzaPlace = [NSEntityDescription insertNewObjectForEntityForName:@"PizzaPlace"
 															  inManagedObjectContext: self];
 
-	NSLog(@"pizza created");
 	return newPizzaPlace;
 }
 
@@ -30,8 +29,6 @@
 	{
 		NSLog(@"Can't execute request: %@", error);
 	}
-
-	NSLog(@"id: %@ objects count: %lu", placeId, (unsigned long)fetchedObjects.count);
 
 	return fetchedObjects.count > 0 ? [fetchedObjects lastObject] : nil;
 }

@@ -1,0 +1,1 @@
+../../../FourSquareKit/FourSquareKit/ios/FourSquareKit.h

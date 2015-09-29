@@ -1,0 +1,52 @@
+PODS:
+  - AFNetworking (2.6.0):
+    - AFNetworking/NSURLConnection (= 2.6.0)
+    - AFNetworking/NSURLSession (= 2.6.0)
+    - AFNetworking/Reachability (= 2.6.0)
+    - AFNetworking/Security (= 2.6.0)
+    - AFNetworking/Serialization (= 2.6.0)
+    - AFNetworking/UIKit (= 2.6.0)
+  - AFNetworking/NSURLConnection (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.0)
+  - AFNetworking/Security (2.6.0)
+  - AFNetworking/Serialization (2.6.0)
+  - AFNetworking/UIKit (2.6.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FourSquareKit (0.0.3):
+    - MKNetworkKit (~> 0.87)
+  - MBProgressHUD (0.9.1)
+  - MKNetworkKit (0.87):
+    - Reachability (~> 3.1.0)
+  - Reachability (3.1.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - FourSquareKit (from `https://github.com/rexstjohn/FourSquareKit.git`, tag `0.0.4`)
+  - MBProgressHUD
+
+EXTERNAL SOURCES:
+  FourSquareKit:
+    :git: https://github.com/rexstjohn/FourSquareKit.git
+    :tag: 0.0.4
+
+CHECKOUT OPTIONS:
+  FourSquareKit:
+    :git: https://github.com/rexstjohn/FourSquareKit.git
+    :tag: 0.0.4
+
+SPEC CHECKSUMS:
+  AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
+  FourSquareKit: 642a55015e52ffc348e737e7ac3ed0cfa1748d8b
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MKNetworkKit: 60ad3c83b62183e40ba75ce772c9427c25b520de
+  Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
+
+COCOAPODS: 0.38.2

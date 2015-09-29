@@ -1,0 +1,1 @@
+../../../FourSquareKit/FourSquareKit/ios/models/UXRExploreQueryBaseModel.h

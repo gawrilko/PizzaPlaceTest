@@ -1,0 +1,1 @@
+../../../FourSquareKit/FourSquareKit/ios/categories/CLLocation+Testing.h
